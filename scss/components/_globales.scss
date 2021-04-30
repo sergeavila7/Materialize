@@ -1,0 +1,10 @@
+$color-primary: #fff;
+$color-secondary: #222;
+
+body {
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}

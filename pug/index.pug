@@ -1,0 +1,19 @@
+extend components/plantilla.pug
+block content
+    section(class="header__main-image z-depth-2")
+    main(class="container")
+        section
+            div(class="section ")
+                div(class="row")
+                    div(class="col m7 input-field input-container")
+                        i(class="material-icons prefix") search
+                        input(id="search" type="text" placeholder="Buscar")
+
+        section 
+            div(class="row")
+                        +cards('card1.jpg', 'Post1')
+                        +cards('card2.jpg', 'Post1')
+                        +cards('card3.jpg', 'Post1')
+                        +cards('card4.jpg', 'Post1')
+                        +cards('card5.jpg', 'Post1')
+                        +cards('card6.jpg', 'Post1')    

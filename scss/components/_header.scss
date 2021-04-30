@@ -1,0 +1,43 @@
+header {
+    height: 60px;
+}
+
+header nav {
+    height: 60px;
+    background: $color-primary;
+
+    .brand-logo{
+        height: 60px;
+        left: 15%;
+        img{
+            height: 100%;
+            width: 55px;
+        }    
+    }
+    ul{
+    height: 100px;
+        a{
+            color: $color-secondary;
+        }
+    }
+}
+
+.sidenav{
+    padding-top: 80px;
+    background: $color-secondary;
+    a{
+        color: $color-primary !important;
+    }
+}
+
+
+.input-field.input-container {
+    height:100px;
+    float: none;
+    margin: 0 auto;
+}
+
+footer.page-footer{
+    height: 80px;
+    background: $color-secondary;
+}

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/><!-- Import Google Icon Font -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/><!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/><!-- Compiled and minified JavaScript -->
+    <link rel="stylesheet" href="../css/main.css"/>
+    <title>My blog</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar-fixed">
+        <nav class="nav-wrapper"><a class="brand-logo valign-wrapper" href="../html/index.html"><img class="responsive-img left z-depth-2" src="../assets/images/Logo.jpg" alt="Logo de imagen"/></a><a class="sidenav-trigger right" href="#" data-target="mobile-demo"><i class="large material-icons cyan-text text-darken-1">menu</i></a>
+          <ul class="right valign hide-on-med-and-down">
+            <li><a href="#">Sobre nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a class="btn" href="../html/registro.html">Registro</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="#">Sobre nosotros</a></li>
+      <li><a href="#">Contacto</a></li>
+      <li><a class="btn" href="../html/registro.html">Registro</a></li>
+    </ul>
+    <div class="navbar-fixed"></div>
+    <section class="container">
+      <div class="row registro-titulo">
+        <div class="col s12">
+          <h1 class="center-align">Regístrate en Platzi News</h1>
+        </div>
+      </div>
+    </section>
+    <main class="container">
+      <div class="row">
+        <div class="col s12">
+          <div class="card-panel">
+            <form acton="">
+              <div class="row section">
+                <div class="input-field col s12 m6">
+                  <input class="validate" id="first-name" type="text"/>
+                  <label for="first-name">Nombre</label>
+                </div>
+                <div class="input-field col s12 m6">
+                  <input class="validate" id="last-name" type="text"/>
+                  <label for="last-name">Apellido</label>
+                </div>
+              </div>
+              <div class="row section">
+                <div class="input-field col s12 m6">
+                  <input class="validate" id="email" type="email"/>
+                  <label for="email">Email</label>
+                </div>
+                <div class="input-field col s12 m6">
+                  <input class="validate" id="password" type="password"/>
+                  <label for="password">Contraseña</label>
+                </div>
+              </div>
+              <div class="section">
+                <h3 class="center-align">Te interesan noticias de:</h3>
+              </div>
+              <div class="section">
+                <div class="row">
+                  <label class="col s12 m4">
+                    <input type="checkbox"/><span>Politica</span>
+                  </label>
+                  <label class="col s12 m4">
+                    <input type="checkbox"/><span>Economía</span>
+                  </label>
+                  <label class="col s12 m4">
+                    <input type="checkbox"/><span>Finanzas</span>
+                  </label>
+                </div>
+                <div class="row">
+                  <label class="col s12 m4">
+                    <input type="checkbox"/><span>Entretenimiento</span>
+                  </label>
+                  <label class="col s12 m4">
+                    <input type="checkbox"/><span>Tecnologia</span>
+                  </label>
+                  <label class="col s12 m4">
+                    <input type="checkbox"/><span>Cultura</span>
+                  </label>
+                </div>
+              </div>
+              <div class="section">
+                <div class="row">
+                  <div class="col s12">
+                    <button class="btn waves-effect waves-light center-align rig">Enviar<i class="material-icons right">send</i></button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="page-footer"></footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function(){M.AutoInit();
+      });
+    </script>
+  </body>
+</html>
